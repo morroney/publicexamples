@@ -10,10 +10,10 @@ const startDeepLink = async () => {
       const locationID = 'LOCATION_ID' // for multiple locations
 
       const dataPackage = {
-                                      id: squareCatalogItemID,
-                                      client_id: squareAppID, 
-                                      callback_url: idpAppCallback 
-                                    }
+                               id: squareCatalogItemID,
+                               client_id: squareAppID, 
+                               callback_url: idpAppCallback 
+                           }
 
       const encodeProduct = encodeURIComponent(JSON.stringify(dataPackage))
 
